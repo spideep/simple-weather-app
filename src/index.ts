@@ -8,14 +8,14 @@ app.use(express.static(__dirname + '/dist/assets/'));
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/dist/' + 'index.html');
-  // res.send('Hello World!');
 });
 
 app.get('/api', (req, res) => {
   res.json({ message: 'You are listening from express server' });
 });
 
-app.listen(port, (err?) => {
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, (err?) => {
   if (err) {
     return console.error(err);
   }
