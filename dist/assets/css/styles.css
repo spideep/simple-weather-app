@@ -1,0 +1,31 @@
+body {
+    background: #fff;
+    color: rgb(163, 5, 5);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0;
+}
+
+.btn {
+    color: blue;
+    cursor: pointer;
+}
+
+.weather-component {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    padding: 15px;
+
+    text-align: center;
+}
+
+.weather-icon {
+    display: block;
+    max-width: 100px;
+    text-align: center;
+    margin: auto;
+}

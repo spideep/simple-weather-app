@@ -1,0 +1,29 @@
+{
+  "name": "show-the-weather-app",
+  "version": "1.0.0",
+  "description": "nodejs server, html/js frontend",
+  "main": "dist/index.js",
+  "type": "module",
+  "keywords": [
+    "nodejs",
+    "html",
+    "weather",
+    "api",
+    "js"
+  ],
+  "author": "Alexis Rengifo",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && nodemon dist/index.js",
+    "tsc": "tsc"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.4"
+  }
+}
